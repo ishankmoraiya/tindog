@@ -1,0 +1,168 @@
+body{
+   font-family: "Monstserrat";
+   text-align: center;
+}
+.navbar{
+  padding:0rem 0rem 5rem 0rem;  
+}
+.navbar-brand
+{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;  
+
+
+}
+#title{
+    background-color: #FF8B8B;
+    text-align: left;
+}
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+h1{
+
+    font-family: "Montserrat";
+    margin-bottom: 10%;
+    line-height: 1.8;
+
+}
+h2{
+  font-family: 'Arimo', sans-serif;
+  font-size: 3rem;
+  line-height:1.5 ;
+}
+.contain1{
+  padding: 3%  15% 7%;
+  
+}
+/* .contain2{
+  padding: 5% 0% 5% 0%;
+  font-size: 1rem;
+  
+} */
+
+.rotate{
+
+    transform: rotate(25deg); /* Equal to rotateZ(45deg) */
+    width: 17rem;
+  margin: 20px 0px 0px;
+  position: absolute;
+  right: 28%;
+
+}
+/* featu;res */
+#features{
+  background-color: #fff;
+ 
+  padding:7% 15%;
+  font-size: 1rem;
+  position: relative;
+
+
+  
+}
+h3{
+  font-family: 'Arimo', sans-serif;
+  font-size: 1.5rem;
+
+}
+.para{
+    color: #8f8f8f;
+}
+/* .column1{
+  padding-left: 20%;
+} */
+/* .column2{
+  padding-right: 20%;
+} */
+
+.icon{
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* # testionial Setion? */
+#testimonials{
+ /* padding:7% 15%; */
+ 
+ background-color: #ef8172;
+ color:#fff;
+
+}
+.testmonial-image{
+  width:10%;
+
+  border-radius:100%;
+  margin:20px;
+}
+.testmonial-imagee{
+
+  width:10%;
+
+  border-radius:100%;
+  margin:20px;
+
+}
+#press{
+  background-color: #ef8172;
+  
+  padding-bottom: 3%;
+
+}
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+/* pricing */
+#pricing{
+  padding: 100px;
+
+
+}
+.pricing-coloumn{
+  padding: 3% 2%;
+
+}
+@media(max-width:1028px){
+  #title{
+     text-align: center;
+  }
+  .rotate{
+      position: static;
+      transform: rotate(0);
+  }
+}
+/* callto action */
+#cta{
+  
+  background-color: #ff4c68 ;
+ 
+  padding-bottom: 8%;
+}
+.text-light{
+  font-family: "Montserrat";
+  padding: 5% 10% 5% 10%;
+  
+  line-height: 1.8;
+  font-size:3.5rem;
+
+}
+
+i{
+  padding: 5px;
+}
+
+/* footer */
+#footer{
+  background-color: #fff;
+  
+  padding: 5%;
+}
+.icon-footer{
+  margin: 2px;
+}
